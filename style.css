@@ -1,0 +1,220 @@
+/* Title Section */
+
+
+/*Setting background-image to Total title Section */
+#title {
+	/* padding-bottom: 1rem; */
+
+	font-family: 'Montserrat', sans-serif;
+	padding: 0% 2% 1rem 2%;
+	background-image: linear-gradient(#807f7f, #424040, #807f7f); 
+	height: 100%;
+	margin-top: 0px;
+	background-size: cover;
+	background-position: 25% 75%;
+	;
+}
+
+#How_it_works{
+	background-color: #f0f0f0;
+}
+
+
+.brand_main{
+	color: #dfc075;
+}
+/* Navbar Section */
+
+#log {
+	/*Logo*/
+	position: relative;
+	top: -6px;
+
+}
+
+.navbar-brand {
+	/*Main Brand name padding to vertically center to match with the Home button*/
+	padding-top: 10px;
+	font-size: x-large;
+	font-family: 'La Belle Aurore', cursive;
+	letter-spacing: 3px;
+	
+	
+	
+}
+
+
+.tag {
+	/*Tagline*/
+	font-size: small;
+	color: #dfc075;
+	letter-spacing: 1.2px;
+}
+
+.navbar {
+	padding-bottom: 1rem;
+	
+
+}
+
+.nav-link {
+	border: 1px solid;
+	border-color: #dfc075;
+	margin: 10px;
+	border-radius: 20px;
+
+}
+
+#navbarSupportedContent ul li a{
+	text-align: center;
+}
+.alltext{
+	display: flex;
+}
+
+
+
+
+/* How_it_works */
+.call-outs-container {
+	max-width: 1500px;
+	margin: 0 auto 0 auto;
+	padding-top: 50px;
+  }
+  
+  .call-out1,.call-out3 {
+	font-family:'Ubuntu', sans-serif;
+	color: #dfc075;
+	background-image: linear-gradient(#807f7f, #424040, #807f7f);
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 20px;
+	flex-basis: 22%;
+  }
+  
+  .call-out2,.call-out4 {
+	font-family:'Ubuntu', sans-serif;
+	color: #272622;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 20px;
+	flex-basis: 22%;
+  }
+  
+
+  @media (min-width: 900px) {
+	.call-outs-container {
+	  display: flex;
+	  justify-content: space-between;
+	}
+  }
+  
+  
+
+/* How it works ends */
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (min-device-width : 1026px) and (max-device-width : 2560px) {
+
+/* For Laptops and Desktops */
+
+	.slogan, .sub_slogan {
+		font-family: 'Ubuntu', sans-serif;
+		color: #dfc075;
+		margin: auto;
+		text-align: center;
+		/* display: block;
+		position: relative;
+		text-align: center;
+		top: 150px; */
+		
+	}
+	.slogan h3 {
+		font-size: 32.5px;
+	}
+
+
+}
+
+/* For Tablets */
+@media only screen and (min-device-width :650px) and (max-device-width : 1025) {
+
+	.tag {
+		font-size: 12px;
+		margin-top: 0;
+	}
+
+
+	.slogan, .sub_slogan {
+		font-family: 'Ubuntu', sans-serif;
+		color: #dfc075;
+		margin: auto;
+		text-align: center;
+
+	}
+
+	/* .slogan h3 {
+		font-size: 23px;
+	}
+
+	.sub_slogan h5,h6 {
+		font-size: 18px; */
+	
+	
+
+	.brand_main {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+
+	.tag {
+		font-size: xx-small;
+		margin-top: 0;
+	}
+
+	.slogan, .sub_slogan {
+		font-family: 'Ubuntu', sans-serif;
+		color: #dfc075;
+		margin: auto;
+		text-align: center;
+	}
+
+	.slogan h3 {
+		font-size: 25px;
+
+	}
+
+	.sub_slogan h5,
+	h6 {
+		font-size: 15px;
+	}
+
+	.brand_main {
+		font-size: 15px;
+	}
+
+	#log {
+		width: 30px;
+		height: 30px;
+		position: relative;
+		top: -5px;
+		margin-right: 0rem;
+
+	}
+
+
+}

@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+	/*Main Brand name padding to vertically center to match with the Home button*/
+	padding-top: 10px;
+	font-size: x-large;
+	font-family: 'La Belle Aurore', cursive;
+	letter-spacing: 3px;
+	
+}
